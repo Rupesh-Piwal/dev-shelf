@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-accent: #E75E2E;
+  --color-primary-bg: #262626;
+  --color-card-bg: #2E2F2E;
+  --color-main-text: #EEEEEE;
+  --color-secondary-text: #7F7F7F;
+  --color-footer-bg: #141414;
+  --color-footer-primary: #E8E8E8;
+  --color-footer-secondary: #ABABAB; /* Also used for subtle text */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --background: var(--color-primary-bg);
+  --foreground: var(--color-main-text);
+  
+  /* Radix UI / Shadcn variable mappings */
+  --card: var(--color-card-bg);
+  --card-foreground: var(--color-main-text);
+  --popover: var(--color-card-bg);
+  --popover-foreground: var(--color-main-text);
+  --primary: var(--color-primary-accent);
+  --primary-foreground: #FFFFFF;
+  --secondary: #3f3f3f;
+  --secondary-foreground: var(--color-main-text);
+  --muted: #3f3f3f;
+  --muted-foreground: var(--color-secondary-text);
+  --accent: var(--color-primary-accent);
+  --accent-foreground: #FFFFFF;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: #404040;
+  --input: #404040;
+  --ring: var(--color-primary-accent);
+  --radius: 0.5rem;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-footer-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
