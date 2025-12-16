@@ -1,9 +1,10 @@
-import Header from "@/components/layout/Header";
+
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import FeaturedToday from "@/components/sections/FeaturedToday";
 import RecentlyLaunched from "@/components/sections/RecentlyLaunched";
 import CTASection from "@/components/sections/CTASection";
+import { Header } from "@/components/layout/header/components/header";
 
 export default function Home() {
   return (

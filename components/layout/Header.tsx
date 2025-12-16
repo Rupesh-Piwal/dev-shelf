@@ -27,7 +27,7 @@ export default function Header() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <Link href="/" className="text-xl font-bold tracking-tight">
-                    DevShelf
+                    
                 </Link>
 
                 {/* Desktop Nav */}
