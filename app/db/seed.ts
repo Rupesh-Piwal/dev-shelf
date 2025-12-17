@@ -9,8 +9,8 @@ async function main() {
   console.log("🌱 Seeding database...");
 
   // Clear existing data
-  await db.delete(products);
-  console.log("✅ Cleared existing data");
+  // await db.delete(products);
+  // console.log("✅ Cleared existing data");
 
   // Insert products from data.ts
   for (const product of allProducts) {
