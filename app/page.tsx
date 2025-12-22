@@ -6,6 +6,7 @@ import RecentlyLaunched from "@/components/sections/RecentlyLaunched";
 import CTASection from "@/components/sections/CTASection";
 import { Header } from "@/components/layout/header/components/header";
 
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
